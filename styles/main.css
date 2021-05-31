@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: rgb(1, 3, 34);
+  color: #fff;
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+
+h1 {
+  margin: 4rem 0;
+  font-size: 2.6rem;
+}
+
+.links {
+}
+
+.links a {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  border-radius: 8px;
+  background-color: rgb(39, 68, 129);
+  margin-bottom: 1rem;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.links a:hover {
+  filter: brightness(1.2);
+}
