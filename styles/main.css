@@ -138,7 +138,7 @@ h1 {
 }
 
 .title--construccion {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
 }
 
 .subtitle {
@@ -187,6 +187,10 @@ h1 {
 }
 
 @media screen and (min-width: 768px) {
+  .title--construccion {
+    font-size: 2.8rem;
+  }
+
   .platforms {
     display: flex;
     flex-direction: row;
