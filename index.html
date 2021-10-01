@@ -8,16 +8,65 @@
     <title>Bit Hug</title>
   </head>
   <body>
+    <section class="construccion">
+      <div class="modal">
+        <h1 class="title title--construccion">Hola!, en estos momentos estamos construyendo nuestro portfolio en React JS, pero si quieres puedes ir viéndolo en Vanilla JS</h1>
+        <span class="close-button"></span>
+        <div class="buttons">
+          <button class="button button--accept">Sí!, quiero ir viendo la version vanilla</button>
+          <a href="https://gsvidal.github.io"> <button class="button button--deny">Nel!, prefiero guardarme para la sorpresa...</button>
+          </a>
+        </div>  
+      </div>
+      
+    </section>
     <div class="container">
-      <img class="image" src="images/bithub_portada.png" alt="portada" />
-      <p class="abstract">Unete a esta comunidad 👇</p>
-      <h1 class="title">Links</h1>
-      <div class="links">
+      <img class="image" src="./images/bithug_portada.png" alt="Portada de Bithug" width="320"/>
+      <h1 class="title">¿Qué es Bit Hug?</h1>
+      <p class="copy">Bit Hug es una comunidad interdisciplinaria de personas de diferentes rincones en Latinoamerica: diseñadores, desarrolladores web, tanto front como back-end, desde newbies hasta seniors en reconocidas empresas han unido su experiencia y deseos de seguir aprendiendo día a día para realizar proyectos para practicar y enseñar lo que saben tanto teórica como empíricamente.
+      <br />
+      Únete a Bit Hug, <strong>tu comunidad a un Bit de distancia.</strong> </p>
+      <h2 class="subtitle">Plataformas que utilizamos:</h1>
+      <p class="copy">Puedes ver como fueron documentados, diseñados y desarrollados nuestros proyectos en las siguientes plataformas:
+      </p>
+      <section class="platforms">
         <a href="http://notion.bit-hug.com/">Notion</a>
         <a href="http://discord.bit-hug.com/">Discord</a>
         <a href="http://github.bit-hug.com/">Github</a>
         <a href="http://figma.bit-hug.com/">Figma</a>
-      </div>
+      </section>
+      <h2 class="subtitle">Nuestros Proyectos:</h2>
+      <section class="projects">
+        <ul>
+          <li>
+            <a href="https://bit-hug-learning.github.io/codacy-code-project/public/">
+              <figure>
+                <img src="./images/preview-codacy.png" alt="Preview del proyecto Codacy" width="300" height="180">
+                <figcaption>Maquetación de la página de Codacy</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="https://apikachu.bit-hug.com/">
+              <figure>
+                <img src="./images/apikachu-preview.png" alt="Preview del proyecto Apikachu" width="300" height="180">
+                <figcaption>Diseño y desarrollo de APIkachu: 
+                  Tienda de Pokemons</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="javascript: void(0)">
+              <figure>
+                <img src="./images/bitblog-preview.png" alt="Preview del proyecto Apikachu" width="300" height="180">
+                <figcaption>Bit Blog, donde se crean artículos sobre 
+                  tecnologías web, usando React JS y Wordpress como backend</figcaption>
+              </figure>
+            </a>
+          </li>
+        </ul>
+      </section>
     </div>
+    <script src="./index.js"></script>
   </body>
 </html>
