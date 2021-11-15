@@ -151,20 +151,18 @@ h1 {
 }
 
 .projects {
-  min-width: 280px;
+  max-width: 850px;
 }
 
 .projects ul {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
   list-style: none;
-  margin: 0px auto 30px;
 }
 
 .projects ul li {
-  margin: 10px 0 25px;
+  margin: 10px 10px 25px;
 }
 
 .projects ul li a {
@@ -177,6 +175,9 @@ h1 {
 }
 .projects ul li a img:hover {
   opacity: .7;
+}
+figure img {
+  object-fit: cover;
 }
 
 .projects figcaption {
@@ -202,13 +203,6 @@ h1 {
 
   .projects {
     width: 100%;
-  }
-
-  .projects ul {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    max-width: 800px;
   }
 
   .projects ul li a img {
